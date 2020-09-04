@@ -70,6 +70,10 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+}
 
 #buttons {
     display:flex;
@@ -194,16 +198,53 @@ nav a {
     padding-right: 0;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.square .learnbox{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 3%;
+    padding: 2%;
+
+    text-align: center;
+    color: black;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.aboutcontent {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.aboutcontent .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.foursquare {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-around;
+
+}
+
+.foursquare .square {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+
+.ending {
+    margin-bottom: 20px;
+}
+
+.ending .text-container {
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
